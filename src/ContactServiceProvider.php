@@ -14,6 +14,7 @@ class ContactServiceProvider extends \Illuminate\Support\ServiceProvider
         );
         $this->publishes([
             __DIR__.'/config/contact.php' => config_path('contact.php'),
+            __DIR__.'/views' => resource_path('views/vendor/contact'),
         ]);
     }
 
