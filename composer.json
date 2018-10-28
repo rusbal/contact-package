@@ -1,0 +1,19 @@
+{
+    "name": "rsusbal/contact",
+    "description": "This will send email to admin and save to db",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Usbal",
+            "email": "raymond@philippinedev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rsusbal\\Contact\\": "src/"
+        }
+    }
+}
