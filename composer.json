@@ -15,5 +15,12 @@
         "psr-4": {
             "Rsusbal\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rsusbal\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
